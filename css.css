@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playpen+Sans:wght@100..800&display=swap');
+body{
+    font-family: Plus Jakarta Sans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.CykQtbJyG3Hbwigf1sFIEAHaEA&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-position: center;
+    }
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    }
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    }
+label {
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    }
+.input {
+    width: 80%;
+    height: 25px;
+    }
+button{
+    width: 50%;
+    height: 25px;
+    background-color: #58ec5d;
+    }
+button:hover {
+    background-color: #8ee393;
+  }
+  @media (max-width: 500px) {
+    body {
+        font-size: 14px;
+        background-color: #f4f4f4;
+        font-family: Playpen Sans, cursive;
+        background-image: url('https://tse1.mm.bing.net/th?id=OIP.-PNPT_x7RM8appu-emLT8gAAAA&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-position: center;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+    
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 501px) and (max-width: 1000px) {
+    body {
+        font-size: 16px;
+        background-color: #e4e4e4;
+        font-family: Gowun Batang;
+        background-image: url('https://tse2.mm.bing.net/th?id=OIP.qpcnN8JRLwhOrisTEm0b_QHaEo&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-position: center;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        width: 80%;
+    }
+}
